@@ -18,6 +18,7 @@ export default function Home() {
         />
         <meta name="rating" content="General" />
         <meta name="author" content="Basar Ureten" />
+        <link rel="canonical" href="https://www.basarureten.dev/" />
 
         <meta property="og:title" content="Basar Ureten | Portfolio Page" />
         <meta property="og:url" content="https://www.basarureten.dev/" />
