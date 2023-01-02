@@ -31,7 +31,7 @@ const ContactSection = () => {
         <div>
           <a
             aria-label="LinkedIn"
-            href="https://www.linkedin.com/in/ba%C5%9Far-%C3%BCreten-b07a4b1b3/"
+            href="https://www.linkedin.com/in/basarureten/"
             target="_blank"
           >
             <img alt="LinkedIn icon" src="./icons/linkedin.svg" />
