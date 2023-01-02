@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function Modal({ closeHandler, project }) {
   return (
@@ -16,7 +17,12 @@ export default function Modal({ closeHandler, project }) {
             </div>
             {/*body*/}
             <div className="relative p-4 m-sm:p-0 flex-auto">
-              <img src={project.imgSrc} />
+              <Image
+                width={960}
+                height={540}
+                alt={`image of ${project.projectName}`}
+                src={project.imgSrc}
+              />
               <p className="text-lg mb-1 mt-2 m-sm:mx-4">
                 {project.description}
               </p>

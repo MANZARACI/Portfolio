@@ -6,72 +6,75 @@ const SkillsSection = () => {
       <h2 className="text-3xl text-gray-400">Skills</h2>
       <div className="font-semibold grid grid-cols-3 md:grid-cols-5 xl:grid-cols-7 gap-12 mt-8">
         <div>
-          <img src="./icons/html5-original.svg" />
+          <img alt="HTML icon" src="./icons/html5-original.svg" />
           <p className="text-center">HTML</p>
         </div>
 
         <div>
-          <img src="./icons/css3-original.svg" />
+          <img alt="CSS icon" src="./icons/css3-original.svg" />
           <p className="text-center">CSS</p>
         </div>
 
         <div>
-          <img src="./icons/bootstrap-original.svg" />
+          <img alt="Bootstrap icon" src="./icons/bootstrap-original.svg" />
           <p className="text-center">Bootstrap</p>
         </div>
 
         <div>
-          <img src="./icons/tailwindcss-plain.svg" />
+          <img alt="Tailwind icon" src="./icons/tailwindcss-plain.svg" />
           <p className="text-center">Tailwind CSS</p>
         </div>
 
         <div>
-          <img src="./icons/javascript-original.svg" />
+          <img alt="Javascript icon" src="./icons/javascript-original.svg" />
           <p className="text-center">Javascript</p>
         </div>
 
         <div>
-          <img src="./icons/python-original.svg" />
+          <img alt="Python icon" src="./icons/python-original.svg" />
           <p className="text-center">Python</p>
         </div>
 
         <div>
-          <img src="./icons/java-original.svg" />
+          <img alt="Java icon" src="./icons/java-original.svg" />
           <p className="text-center">Java</p>
         </div>
 
         <div>
-          <img src="./icons/c-original.svg" />
+          <img alt="C language icon" src="./icons/c-original.svg" />
           <p className="text-center">C</p>
         </div>
 
         <div>
-          <img src="./icons/react-original.svg" />
+          <img alt="React icon" src="./icons/react-original.svg" />
           <p className="text-center">React</p>
         </div>
 
         <div>
-          <img src="./icons/nextjs-original.svg" />
+          <img alt="Next.js icon" src="./icons/nextjs-original.svg" />
           <p className="text-center">Next.js</p>
         </div>
 
         <div>
-          <img src="./icons/nodejs-original.svg" />
+          <img alt="Node.js icon" src="./icons/nodejs-original.svg" />
           <p className="text-center">Node.js</p>
         </div>
 
         <div>
-          <img src="./icons/express-original.svg" />
+          <img alt="Express icon" src="./icons/express-original.svg" />
           <p className="text-center">Express.js</p>
         </div>
 
         <div>
-          <img src="./icons/mongodb-original.svg" />
+          <img alt="MongoDB icon" src="./icons/mongodb-original.svg" />
           <p className="text-center">MongoDB</p>
         </div>
 
         <div>
-          <img src="./icons/androidstudio-original.svg" />
+          <img
+            alt="Android Studio icon"
+            src="./icons/androidstudio-original.svg"
+          />
           <p className="text-center">Android Studio</p>
         </div>
       </div>

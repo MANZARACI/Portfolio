@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <nav className="bg-[#313131] sticky top-0 z-50">
-      <ul className="flex justify-end m-sm:justify-center text-xl m-sm:text-sm font-bold font-Kanit space-x-8 m-sm:space-x-4 py-4 mx-20">
+      <div className="flex justify-end m-sm:justify-center text-xl m-sm:text-sm font-bold font-Kanit space-x-8 m-sm:space-x-4 py-4 mx-20">
         <Link
           activeClass="activeLink"
           spy
@@ -41,7 +41,7 @@ const Navbar = () => {
         >
           Contact
         </Link>
-      </ul>
+      </div>
     </nav>
   );
 };

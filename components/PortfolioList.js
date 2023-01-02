@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import Modal from "./Modal";
+import Image from "next/image";
 
 import { projects } from "../data/Projects";
 
@@ -53,7 +54,12 @@ const PortfolioList = () => {
                 {project.projectName}
               </motion.h2>
               <motion.div className="mt-2">
-                <motion.img src={project.imgSrc} />
+                <Image
+                  width={384}
+                  height={216}
+                  alt={`image of ${project.projectName}`}
+                  src={project.imgSrc}
+                />
               </motion.div>
             </motion.li>
           );
