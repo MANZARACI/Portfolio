@@ -1,4 +1,9 @@
 import React from "react";
+import Image from "next/image";
+
+import emailIcon from "../public/icons/email.svg";
+import githubIcon from "../public/icons/github.svg";
+import linkedinIcon from "../public/icons/linkedin.svg";
 
 const ContactSection = () => {
   return (
@@ -12,7 +17,7 @@ const ContactSection = () => {
       <section className="font-semibold text-lg md:w-4/5 xl:w-3/5 mx-auto grid grid-cols-3 gap-8 lg:gap-12 xl:gap-20">
         <div>
           <a aria-label="Send an email" href="mailto:basarureten@gmail.com">
-            <img alt="email icon" src="./icons/email.svg" />
+            <Image alt="email icon" src={emailIcon} />
           </a>
           <p className="text-center mt-1">Email</p>
         </div>
@@ -23,7 +28,7 @@ const ContactSection = () => {
             href="https://github.com/MANZARACI"
             target="_blank"
           >
-            <img alt="GitHub icon" src="./icons/github.svg" />
+            <Image alt="GitHub icon" src={githubIcon} />
           </a>
           <p className="text-center mt-1">GitHub</p>
         </div>
@@ -34,7 +39,7 @@ const ContactSection = () => {
             href="https://www.linkedin.com/in/basarureten/"
             target="_blank"
           >
-            <img alt="LinkedIn icon" src="./icons/linkedin.svg" />
+            <Image alt="LinkedIn icon" src={linkedinIcon} />
           </a>
           <p className="text-center mt-1">LinkedIn</p>
         </div>

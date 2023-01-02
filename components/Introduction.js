@@ -29,10 +29,10 @@ const Introduction = () => {
         className="font-Kanit text-7xl w-4/5 md:w-3/5"
       >
         <motion.p variants={item}>Hi</motion.p>
-        <motion.p variants={item}>
+        <motion.h1 variants={item}>
           I am{" "}
           <motion.span className="text-purple-500">Başar Üreten</motion.span>
-        </motion.p>
+        </motion.h1>
         <motion.p
           variants={item}
           className="text-zinc-400 italic text-2xl mt-5"
