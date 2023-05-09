@@ -29,13 +29,15 @@ export default function Modal({ closeHandler, project }) {
             </div>
             {/*footer*/}
             <div className="flex items-center space-x-3 justify-end p-6 border-t border-solid border-slate-200 rounded-b">
-              <a
-                href={project.liveUrl}
-                target="_blank"
-                className="bg-purple-600 hover:bg-purple-700 py-1 px-2 rounded text-lg cursor-pointer"
-              >
-                Live App
-              </a>
+              {project.liveUrl && (
+                <a
+                  href={project.liveUrl}
+                  target="_blank"
+                  className="bg-purple-600 hover:bg-purple-700 py-1 px-2 rounded text-lg cursor-pointer"
+                >
+                  Live App
+                </a>
+              )}
               <a
                 href={project.githubUrl}
                 target="_blank"

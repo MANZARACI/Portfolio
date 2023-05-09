@@ -25,4 +25,11 @@ export const projects = [
       "A social media site to compare things including comment and vote system. It has been built with Next.js, Tailwind CSS, MongoDB and Cloudinary.",
     liveUrl: "https://versus-app-manzaraci.vercel.app/",
   },
+  {
+    id: 4,
+    githubUrl: "https://github.com/MANZARACI/blind-assistant-frontend",
+    projectName: "Blind Assistant",
+    description: "An ESP32 project to help visually impaired people",
+    imgSrc: "/images/blind-assistant.png",
+  },
 ];
