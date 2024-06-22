@@ -1,6 +1,6 @@
 # Portfolio
 
-https://www.basarureten.dev/
+This portfolio site is old but you can access it from this [link](https://portfolio-two-plum-78.vercel.app/). The updated site can be accessed from here [https://www.basarureten.dev/](https://www.basarureten.dev/).
 
 My portfolio site
 
